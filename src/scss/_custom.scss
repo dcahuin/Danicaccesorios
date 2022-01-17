@@ -1,0 +1,13 @@
+//Reescribir Bootstrap
+$deepskyblue:  #00BFFF; //#F0D5EF
+$pink: #d63384;
+$darkmagenta: #8B008B;
+//asignar a la paleta de colores de bootstrap
+$primary: $deepskyblue;
+$secondary: $pink;
+$dark: $darkmagenta;
+
+$nav-link-color: $deepskyblue;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

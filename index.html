@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+    <title>Danicaccesorios</title>
+</head>
+<!-- <img src="img/" alt="logo" width="150"> -->
+
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+     
+      <div class="container">
+        <span>
+          <img class="img-fluid" src="img/Logo.jpg" alt="logo" width="80">
+          Danicaccesorios
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="float-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <!--Navbar-->
+
+   <!-- Contenedor y Carousel -->
+   <div class="container mt-2">
+
+    <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <h5>Promociones</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laudantium saepe non totam hic omnis mollitia delectus, dignissimos minus impedit perferendis est tempora? Magni porro voluptatibus culpa recusandae cupiditate optio.</p>
+          </div>
+          <img class="img-fluid" src="img/Toallitas Húmedas(carrusel).jpg" alt="Toallitas Húmedas">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-caption">
+            <h5>Promociones</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laudantium saepe non totam hic omnis mollitia delectus, dignissimos minus impedit perferendis est tempora? Magni porro voluptatibus culpa recusandae cupiditate optio.</p>
+          </div>
+          <img class="img-fluid" src="img/organizador joyas blanco(carrusel).jpg" alt="organizador joyas blanco">
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Danicaccesorios</h5>
+            <p>Pronto nuevos productos.</p>
+          </div>
+          <img class="img-fluid" src="img/Logo(carrusel).jpg" alt="Logo Danicaccesorios">
+        </div>
+
+      </div>
+
+      <!-- Controladores-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+        
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+        
+      </button>
+      <!-- /Controladores -->
+      <!-- Indicadores-->
+        <div class="carousel-indicators">
+        <button 
+          type="button"
+          class="active" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="0"
+          aria-label="Slide 1"
+          >
+        </button>
+
+        <button 
+          type="button" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          >
+        </button>
+
+        <button 
+          type="button" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          >
+        </button>
+
+        <button 
+          type="button" 
+          data-bs-target="#mi-carousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        >
+      </button>
+
+        </div>
+      <!-- /Indicadores-->
+    </div>
+
+  </div>
+  <!-- /Contenedor y Carousel-->
+
+  <main class="container">
+    <!-- Main-->
+    <div class="d-flex justify-content-between">
+      <h2>Algunos de nuestros productos</h2>
+      <a href="#" class="text-decoration-none d-none d-sm-block fs-3 text-dark">Explora más</a>
+    </div>
+
+  <div class="container d-flex justify-content-around mt-5">
+    <!-- CARDS -->
+    <div class="col-md-6 col-lg-4">
+     <div class="card" style="width: 18rem;">
+      <img src="img/Mini Maquina de Coser.jpg" class="card-img-top"
+        alt="Mini Maquina Coser">
+      <div class="card-body">
+        <h5 class="card-title">Mini Maquina de Coser</h5>
+        <p class="card-text">Ideal para costuras rápidas y fáciles. Puedes coser todo tipo de telas.</p>
+        <a href="#" class="btn btn-primary">Obtener</a>
+          <!-- Button trigger modal -->
+         <button type="button" class="btn btn-primary" data-bs-toggle="modal"    data-bs-target="#exampleModal1">
+            ver más
+          </button>
+
+      </div>
+     </div>
+
+     <div class="card" style="width: 18rem;">
+      <img src="img/Mini plancha para cabello.jpg" class="card-img-top"
+        alt="Mini plancha de pelo">
+      <div class="card-body">
+        <h5 class="card-title">Mini plancha para cabello</h5>
+        <p class="card-text">Tamaño ideal para llevar en el bolso o cartera, ya sea en el día a día como para viajes..</p>
+        <a href="#" class="btn btn-primary">Obtener</a>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal"    data-bs-target="#exampleModal1">
+            ver más
+          </button>
+      </div>
+     </div>
+
+     <div class="card" style="width: 18rem;">
+      <img src="img/organizador joyas blanco.jpg" class="card-img-top"
+        alt="organizador joyas">
+      <div class="card-body">
+        <h5 class="card-title">Organizador joyas blanco</h5>
+        <p class="card-text">Para un toque sofisticado y glamoroso en tú espacio especial. Ya sea en el tocador o sobre la mesita de noche, para dejar tus joyas diarias o mantener ordenas y visibles las que más te gustan o utilizas.</p>
+        <a href="#" class="btn btn-primary">Obtener</a>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal"    data-bs-target="#exampleModal1">
+            ver más
+          </button>
+
+      </div>
+     </div>
+     <!-- /CARDS-->
+     </div>
+   </div>
+<!-- Aplicaciones Moviles -->
+<section class="app-movil container mt-5">
+    <div class="row">
+      <div class="offset-md-4 col-md-4">
+        <span class="d-block mx-auto text-primary">Danicaccesorios</span>
+        <p class="text-center fw-bold mt-5 fs-4">Mantente Conectado. Descarga Danicaccesorios App</p>
+        <div class="d-flex gap-4">
+          <div class="col">
+            <a href="#">
+              <img class="img-fluid" src="img/tienda-android.svg" alt="imagen apple store">
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <img class="img-fluid" src="img/tienda-apple.svg" alt="imagen apple store">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Aplicaciones Moviles-->
+</main>
+
+<!-- Footer -->
+
+<footer class="bg-mt-5 pt-4 pb-2 text-darkmagenta">
+  <!-- Container -->
+  <div class="container">
+    <p class="fs-4 text-center">Nuestras redes Sociales</p>
+    <div class="d-flex justify-content-center">
+      <!-- Iconos -->
+      <i class="fs-2 fab me-3 fa-facebook"></i>
+      <i class="fs-2 fab me-3 fa-youtube"></i>
+      <i class="fs-2 fab me-3 fa-instagram"></i>
+    </div>
+    <div class="row mt-4">
+
+      <div class="col-md-4 text-center">
+        <p class="fs-5">Danicaccesorios</p>
+        <nav class="nav flex-column">
+          <a class="nav-link" href="#">Acerca de</a>
+          <a class="nav-link" href="#">Partners</a>
+          <a class="nav-link" href="#">Descuentos</a>
+          <a class="nav-link" href="#">Lorem ipsum</a>
+        </nav>
+      </div>
+
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Inscríbete para recibir nuestro newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Correo electrónico</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Suscríbete
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Te mantendremos informado respecto a todos nuestros productos, las novedades semanales, ofertas y promociones. Síguenos en nuestras redes sociales y envíanos tus
+          comentarios.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      
+
+
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #ad0da8;">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!--/Footer-->
+
+   <!-- Modal1 -->
+   <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/Mini Maquina de Coser con implementos.jpg" alt="img Mini maquina de coser">
+            <div class="card-body">
+              <h3 class="card-title fs-5">Mini maquina de coser</h3>
+              <p class="card-text descripcion">Práctica y cómoda, ideal para viajes. Puede ser utilizada con la corriente o pilas(AA). Cuenta con cable toma corriente, pedal, carruseles para hilo.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal2 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Articulos de belleza</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/Olla para cera depilatoria.jpg" alt="img Olla cera para depilación">
+            <div class="card-body">
+              <h3 class="card-title fs-5">Olla para cera</h3>
+              <p class="card-text descripcion">Práctica y segura olla para calentar cera para depilacion. Fácil de transportar y usar.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal3 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">organizadores</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/Organizador.jpg" alt="img organizador">
+            <div class="card-body">
+              <h3 class="card-title fs-5">Organizador</h3>
+              <p class="card-text descripcion">Organizador escritorio, cuenta con varios compartimientos para guardar y organizar todo aquello que necesitas a mano.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>    
+</html>
